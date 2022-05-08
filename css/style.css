@@ -87,7 +87,86 @@
 #hr1 {
     display: none;
 }
+<<<<<<< Updated upstream
 
+=======
+.burger {
+    display: block;
+    cursor: pointer;
+}
+.burger .line1,
+.burger .line2,
+.burger .line3 {
+    width: 24px;
+    height: 3px;
+    background-color: #000;
+}
+.burger.line1:hover {
+    background-color: #db0962;
+}
+.burger.line2:hover {
+    background-color: #db0962;
+}
+.burger.line3:hover {
+    background-color: #db0962;
+}
+.burger .line2 {
+    margin: 3px 0px;
+}
+.menu {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50%;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #db0962;
+    transform: translateX(100%);
+    transition: 0.5s ease;
+}
+.menu > li > a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.menu > li {
+    margin: 55px auto;
+}
+.menu > li {
+    opacity: 0;
+}
+body {
+    overflow-x: hidden;
+}
+.nav-active {
+    transform: translateX(0);
+}
+.close .line1 {
+ transform: rotate(-45deg) translate(-5px,3px);
+}
+.close .line2 {
+    opacity: 0;
+}
+.close .line3 {
+    transform: rotate(45deg) translate(-5px,-3px);
+}
+#menu {
+    display: none;
+}
+@keyframes linksFade {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+>>>>>>> Stashed changes
 @media screen and (min-width: 769px) {
     #container {
         max-width: 1152px;
@@ -113,6 +192,7 @@
         flex-direction: row;
     }
     .cd1 form{
+        display: block;
         align-items: center;
         flex-direction: row;
     }
@@ -130,6 +210,12 @@
         margin-top: inherit;
     }
     #menu {
+<<<<<<< Updated upstream
+=======
+     display: block;;
+    }
+    #menu > ul{
+>>>>>>> Stashed changes
         padding: 10px;
         width: 1024px;
         margin: 0 auto;
@@ -137,6 +223,12 @@
         align-items: center;
         justify-content: space-between;
     }
+<<<<<<< Updated upstream
+=======
+    #menu > li > a {
+        display: inline-block;
+    }
+>>>>>>> Stashed changes
     #menu a {
         position: relative;
         font-family:Arial, Helvetica, sans-serif;
@@ -183,4 +275,21 @@
         padding-left: 100px;
     }
     
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
