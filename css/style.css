@@ -10,41 +10,27 @@
     background-position: center;
     height: 70vh;
 }
-#s1 p{
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-}
-
 .navbar {
     text-align: center;
 }
 .navdiv {
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: space-around;
 }
-.navdend form {
-    display: flex;
-    flex-direction: column;
-}
 #toygunu {
-    margin-top: 30%;
     font-size: 25px;
     text-transform: uppercase;
     font-family: var(--pacifico);
     color: #db0962;
 }
 .cd {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .cd1 form {
-    display: flex;
-    flex-direction: column;
+    display: none;
 }
 .cd1 form input{
     margin: 15px auto;
@@ -81,15 +67,9 @@
     color: #db0962;
     transition: 0.3s;
 }
-.cd2 {
-    margin-top: 50px;
-}
 #hr1 {
     display: none;
 }
-<<<<<<< Updated upstream
-
-=======
 .burger {
     display: block;
     cursor: pointer;
@@ -166,8 +146,10 @@ body {
       transform: translateX(0px);
     }
   }
->>>>>>> Stashed changes
 @media screen and (min-width: 769px) {
+    .burger {
+        display: none;
+    }
     #container {
         max-width: 1152px;
         margin: 0 auto;
@@ -210,12 +192,9 @@ body {
         margin-top: inherit;
     }
     #menu {
-<<<<<<< Updated upstream
-=======
      display: block;;
     }
     #menu > ul{
->>>>>>> Stashed changes
         padding: 10px;
         width: 1024px;
         margin: 0 auto;
@@ -223,12 +202,9 @@ body {
         align-items: center;
         justify-content: space-between;
     }
-<<<<<<< Updated upstream
-=======
     #menu > li > a {
         display: inline-block;
     }
->>>>>>> Stashed changes
     #menu a {
         position: relative;
         font-family:Arial, Helvetica, sans-serif;
