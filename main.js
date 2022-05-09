@@ -13,7 +13,6 @@ const navShow = () => {
           link.style.animation = `linksFade 0.5s ease forwards ${index / 5 + 0.2}s`;
         }
       });
-  
       burger.classList.toggle('close');
     });
   }
