@@ -1,5 +1,8 @@
 function show(anythhing) {
-    document.querySelector('.textBox').value = anythhing;
+    document.querySelector('.textBox1').value = anythhing;
+}
+function show2(anythhing) {
+    document.querySelector('.textBox2').value = anythhing;
 }
 let dropdown1 = document.querySelector('.dropdown1');
 dropdown1.onclick = function () {
