@@ -62,13 +62,22 @@
                 <h1 class="title"> <b>Toy gününə az qalıb</b> <br> İndi başla!</h1>
                 <p class="subtitle">Hər üç cütlükdən ikisi <b>Toygünü.az</b> vasitəsilə toyunu reallaşdırır .</p>
             </div>
-            <div class="dropdown">
-                <input type="text" class="textBox" placeholder="Məkan seç" readonly />
-                <div class="option">
-                    <div>lorem</div>
-                    <div>lorem</div>
-                    <div>lorem</div>
-                    <div>lorem</div>
+            <div id="dropdowns">
+                <div class="dropdown1 dp1">
+                    <input type="text" class="textBox" placeholder="Məkan seç" readonly />
+                    <div class="option1">
+                        <div onclick="show('lorem')">lorem</div>
+                        <div onclick="show('lorem')">lorem</div>
+                        <div onclick="show('lorem')">lorem</div>
+                        <div onclick="show('lorem')">lorem</div>
+                    </div>
+                </div>
+                <div class="dropdown2 dp2">
+                    <input type="text" class="textBox" placeholder="Məkan seç" readonly />
+                    <div class="option2">
+                        <div onclick="show('lorem')">lorem</div>
+                        <div onclick="show('lorem')">lorem</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -76,6 +85,7 @@
     <footer></footer>
     <script src="https://kit.fontawesome.com/ff1b176afe.js" crossorigin="anonymous"></script>
     <script src="main.js" charset="utf-8"></script>
+    <script src="dropdown.js"></script>
 </body>
 
 </html>
