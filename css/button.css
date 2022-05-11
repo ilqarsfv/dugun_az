@@ -1,0 +1,76 @@
+.button {
+    background-color: #db0962;
+    color: #fff;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+#button {
+    position: absolute;
+    top: 60%;
+    left: 55%;
+}
+body > .hamburger-menu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: white;
+    z-index: 10000;
+    width: 250px;
+    padding: 11px 25px 25px 25px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+body > .hamburger-menu > i {
+    position: absolute;
+    right: 10px;
+    top: 23px;
+    font-size: 24px;
+    color: black;
+}
+body > .hamburger-menu .lang {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+body > .hamburger-menu .lang a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+body > .hamburger-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 50px;
+}
+body > .hamburger-menu ul li a {
+    display: block;
+    overflow: hidden;
+    white-space: normal;
+    color: #80b435;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+body > .hamburger-menu ul li .price {
+    margin-top: 10px;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+}

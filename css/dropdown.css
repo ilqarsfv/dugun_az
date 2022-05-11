@@ -45,12 +45,14 @@
     box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     overflow: hidden;
-    display: none;
+    opacity: 0;
+    height: 0;
     
 }
 .dropdown1.active .option1{
-    display: block;
+    opacity: 1;
     transition: 0.5s;
+    height: max-content;
 }
 .dropdown1 .option1 div {
     padding: 12px 20px;
@@ -62,6 +64,7 @@
 }
 #dropdowns {
     display: flex;
+    align-items: center;
 }
 .dp2 {
     margin-left: 50px;
@@ -119,12 +122,14 @@
     box-shadow: 0 30px 30px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     overflow: hidden;
-    display: none;
+    opacity: 0;
+    height: 0;
     
 }
 .dropdown2.active .option2{
-    display: block;
+    opacity: 1;
     transition: 0.5s;
+    height: max-content;
 }
 .dropdown2 .option2 div {
     padding: 12px 20px;
